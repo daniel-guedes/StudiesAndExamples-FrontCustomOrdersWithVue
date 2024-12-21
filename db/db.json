@@ -1,0 +1,127 @@
+{
+  "ingredientes": {
+    "recipientes": [
+      {
+        "id": 1,
+        "tipo": "Copo"
+      },
+      {
+        "id": 2,
+        "tipo": "Pote"
+      },
+      {
+        "id": 3,
+        "tipo": "Pote Ecologico"
+      },
+      {
+        "id": 4,
+        "tipo": "Cestinha"
+      }
+    ],
+    "tamanhos": [
+      {
+        "id": 1,
+        "tipo": "Pequeno"
+      },
+      {
+        "id": 2,
+        "tipo": "Médio"
+      },
+      {
+        "id": 3,
+        "tipo": "Grande"
+      },
+      {
+        "id": 4,
+        "tipo": "Extrambólico"
+      }
+    ],
+    "bases": [
+      {
+        "id": 1,
+        "tipo": "Açaí Tradicional"
+      },
+      {
+        "id": 2,
+        "tipo": "Açaí ao Leite"
+      },
+      {
+        "id": 3,
+        "tipo": "Açaí com Cupuaçu"
+      },
+      {
+        "id": 4,
+        "tipo": "Açaí Trufado"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Granola"
+      },
+      {
+        "id": 2,
+        "tipo": "Coco Ralado"
+      },
+      {
+        "id": 3,
+        "tipo": "Amendoim"
+      },
+      {
+        "id": 4,
+        "tipo": "Castanha de Caju"
+      },
+      {
+        "id": 5,
+        "tipo": "Cereal"
+      },
+      {
+        "id": 6,
+        "tipo": "Leite em Pó"
+      },
+      {
+        "id": 7,
+        "tipo": "Chocolate"
+      },
+      {
+        "id": 8,
+        "tipo": "Granulado"
+      },
+      {
+        "id": 9,
+        "tipo": "M&Ms"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "orders": [
+    {
+      "id": "43ba",
+      "nome": "Daniel",
+      "base": "Açaí Trufado",
+      "recipiente": "Pote Ecologico",
+      "tamanho": "Médio",
+      "opcionais": [
+        "Granola",
+        "Coco Ralado",
+        "Leite em Pó",
+        "Chocolate",
+        "Castanha de Caju"
+      ],
+      "status": "Solicitado"
+    }
+  ]
+}
